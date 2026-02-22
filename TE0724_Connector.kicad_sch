@@ -6520,6 +6520,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "SS5-80-3.50-L-D-K-TR "
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "154"
 			(uuid "4153f78e-5189-4afa-9699-6c8b094473b5")
 		)

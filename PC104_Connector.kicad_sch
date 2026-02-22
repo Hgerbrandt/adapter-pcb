@@ -3126,7 +3126,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x26_Odd_Even"
+		(property "Value" "ESQ-126-39-G-D"
 			(at 188.976 107.188 0)
 			(effects
 				(font
@@ -3154,6 +3154,24 @@
 		)
 		(property "Description" "Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 152.4 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ESQ-126-39-G-D"
+			(at 152.4 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x26_Odd_Even"
+		(property "Value" "ESQ-126-39-G-D"
 			(at 188.976 65.024 0)
 			(effects
 				(font
@@ -3436,6 +3454,24 @@
 		)
 		(property "Description" "Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 152.4 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ESQ-126-39-G-D"
+			(at 152.4 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)

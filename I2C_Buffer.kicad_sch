@@ -1220,6 +1220,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Vishay"
+			(at 175.006 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCS0402MD1002BE100"
+			(at 175.006 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "593f27b8-c49b-4d2b-9ac2-ca08897ecfed")
 		)
@@ -1375,6 +1393,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Analog Devices Inc."
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "07455e06-88ce-4a35-8ac7-39d939c932cb")
 		)
@@ -1463,6 +1490,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Vishay"
+			(at 120.65 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCS0402MD1002BE100"
+			(at 120.65 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3474f86c-0c32-40e7-9418-fd43ef2c196c")
 		)
@@ -1533,6 +1578,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Vishay"
+			(at 165.354 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCS0402MD1002BE100"
+			(at 165.354 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ba474d8-9310-4c0c-816a-a11c71ca4d96")
 		)
@@ -1595,6 +1658,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.778 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 128.778 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCS0402MD1002BE100"
 			(at 128.778 76.454 0)
 			(effects
 				(font
@@ -1731,6 +1812,24 @@
 		)
 		(property "Description" ""
 			(at 131.572 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 131.572 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H103KA55J"
+			(at 131.572 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
