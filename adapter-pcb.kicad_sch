@@ -120,7 +120,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6da06bd5-7839-43dd-9065-41aec0431e8e")
-		(property "Sheetname" "PC104 Connector"
+		(property "Sheetname" "CSKB"
 			(at 183.642 54.1524 0)
 			(effects
 				(font

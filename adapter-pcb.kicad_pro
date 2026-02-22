@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -688,7 +688,7 @@
     ],
     [
       "6da06bd5-7839-43dd-9065-41aec0431e8e",
-      "PC104 Connector"
+      "CSKB"
     ],
     [
       "1213a66d-8b93-46c4-b414-9452953a635e",
