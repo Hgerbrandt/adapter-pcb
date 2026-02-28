@@ -691,7 +691,7 @@
 			(pin passive line
 				(at -12.7 48.26 0)
 				(length 5.08)
-				(name "01"
+				(name "CAN_L"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -709,7 +709,7 @@
 			(pin passive line
 				(at -12.7 45.72 0)
 				(length 5.08)
-				(name "03"
+				(name "CAN_H"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -727,7 +727,7 @@
 			(pin passive line
 				(at -12.7 43.18 0)
 				(length 5.08)
-				(name "05"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
