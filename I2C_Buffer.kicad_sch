@@ -1180,93 +1180,49 @@
 		)
 		(uuid "fbf2ff0e-fe55-4b6f-b29d-bcd6f7a30eb3")
 	)
-	(global_label "I2C_SDA(2)"
-		(shape input)
-		(at 116.84 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5896979b-26cd-4558-b69f-0cbcdb29b846")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3319 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SCL(2)"
-		(shape input)
-		(at 116.84 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e28cb44-e77b-4162-a647-e94bdfc706a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3924 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA_CSKB"
-		(shape input)
-		(at 179.07 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a2145a0-25bc-4c73-853f-51c6ed4b0dd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6623 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SCL_CSKB"
+	(hierarchical_label "I2C_SCL_CSKB"
 		(shape input)
 		(at 179.07 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7a07dadd-cb01-4694-8c14-fa06d36341c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6018 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "082a6195-5746-4513-953b-32ef1499c551")
+	)
+	(hierarchical_label "I2C_SDA_CSKB"
+		(shape bidirectional)
+		(at 179.07 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "835c48e7-7113-4e8e-8568-03f8996b0a7d")
+	)
+	(hierarchical_label "I2C_SCL(2)"
+		(shape output)
+		(at 116.84 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c069f135-308d-49c9-88c2-ce6d35a2607a")
+	)
+	(hierarchical_label "I2C_SDA(2)"
+		(shape bidirectional)
+		(at 116.84 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da3f9ec7-d9c7-465f-8421-1eb94a0e7daa")
 	)
 	(symbol
 		(lib_id "power:+3V3")

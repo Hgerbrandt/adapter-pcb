@@ -2230,6 +2230,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 50.8) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01089198-4bc0-4087-a7fd-e3cd31f707c4")
+	)
+	(wire
+		(pts
 			(xy 119.38 99.06) (xy 119.38 100.33)
 		)
 		(stroke
@@ -2300,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ecfde0-bdef-4869-a135-fb9a22535c1c")
+	)
+	(wire
+		(pts
 			(xy 124.46 114.3) (xy 124.46 113.03)
 		)
 		(stroke
@@ -2320,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 77.47) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ddf8ab-2e0e-4ef5-9a07-06d2a7c31a3f")
+	)
+	(wire
+		(pts
 			(xy 129.54 99.06) (xy 129.54 100.33)
 		)
 		(stroke
@@ -2330,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 57.15) (xy 147.32 58.42)
+			(xy 143.51 52.07) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2370,6 +2400,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5fc8bc-e2c0-4e4d-8e26-ddc9055b9f34")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c80389-60c4-432e-afc9-f778f8697fea")
+	)
+	(wire
+		(pts
 			(xy 147.32 72.39) (xy 144.78 72.39)
 		)
 		(stroke
@@ -2378,137 +2428,71 @@
 		)
 		(uuid "fbf6ebd0-f4a3-458f-ad0e-0f2c3f7c5d11")
 	)
-	(global_label "I2C_SCL_CSKB"
-		(shape input)
-		(at 129.54 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16a40e12-6db3-4df8-b6b9-7ba2ed759287")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 82.5282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA_CSKB"
-		(shape input)
+	(hierarchical_label "I2C_SDA_CSKB"
+		(shape bidirectional)
 		(at 132.08 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2d46b54b-9746-47a9-be1c-b19d22f32979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 82.4677 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "38d92c01-4a30-453d-93e2-997c35a9b58f")
 	)
-	(global_label "RESESTREQ"
-		(shape input)
-		(at 119.38 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3653232d-a42b-47b6-8ac7-b6597c915e28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 85.3707 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_RX"
-		(shape input)
-		(at 137.16 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "556f0b03-ef76-48b0-adbd-9eef6c07a717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 86.701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_TX"
+	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 137.16 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7ec6ba50-4e1e-4c8e-b671-da06f43654f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 125.0866 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "51b1c5f7-22c7-42eb-936f-b4915d4e8b32")
 	)
-	(global_label "SNN Enable"
-		(shape input)
+	(hierarchical_label "RESESTREQ"
+		(shape output)
+		(at 119.38 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a1fc16c-4e69-4013-b3cd-aa200cfb5a42")
+	)
+	(hierarchical_label "I2C_SCL_CSKB"
+		(shape output)
+		(at 129.54 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "932bab8d-4d46-41fe-a417-86f233a3afea")
+	)
+	(hierarchical_label "ENABLE"
+		(shape output)
 		(at 124.46 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c80d65d1-9f32-4b2f-b92a-c298b6bc628d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 128.4731 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "e0876010-adca-41da-9a77-7a7928847123")
+	)
+	(hierarchical_label "UART_RX"
+		(shape output)
+		(at 137.16 97.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "e5a0d98a-8d2c-4a37-8037-b00f4c16ddda")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2594,7 +2578,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 54.102 90)
+			(at 160.02 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2627,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 72.39 180)
+		(at 156.21 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2651,7 +2635,7 @@
 		(dnp no)
 		(uuid "68d5590c-190f-4bc1-af0b-f8ae0036ecbc")
 		(property "Reference" "#PWR03"
-			(at 162.56 68.58 0)
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2644,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 75.438 90)
+			(at 156.21 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 72.39 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 72.39 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 72.39 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 57.15 180)
+		(at 143.51 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2717,7 +2701,7 @@
 		(dnp no)
 		(uuid "862aa3b6-541b-4165-b3f6-f729cedc5369")
 		(property "Reference" "#PWR08"
-			(at 147.32 50.8 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 145.288 53.34 0)
+			(at 145.542 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 57.15 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 57.15 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 57.15 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

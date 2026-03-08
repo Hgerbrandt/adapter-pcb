@@ -20,9 +20,139 @@
 		)
 		(uuid "8178cb01-8e75-4a59-9452-79799aa6864c")
 	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c75e20-3722-4e8a-ac93-bb19f5d42601")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1407b783-4c25-46fa-99ab-38175d867a64")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319e3c36-63ea-41eb-813d-46408904ac1e")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0e6d8b-f6ea-4183-aa3d-037c37dbedf4")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552157f7-20d8-4e4b-8891-3cf81792b94b")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fe8a04-cedb-49b2-87c2-bab6ffd252ab")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1e0af5-8fd0-4afd-ae02-4cd6f8ae25b6")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836d4634-0e3f-4d6a-8a65-3e965db20fed")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a48b4aa-699c-4ac3-aa32-91d851409b69")
+	)
+	(wire
+		(pts
+			(xy 127 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63b0527-98d4-4de5-b4b6-0fbe95b22570")
+	)
+	(wire
+		(pts
+			(xy 163.83 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e188bae6-bf02-42dc-86f1-09ffc5b44c93")
+	)
+	(wire
+		(pts
+			(xy 127 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f866e953-c33e-426c-b6c6-c1ca306e6a60")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f7b2be-3c35-49b1-9e17-d2c109efe932")
+	)
 	(sheet
-		(at 139.446 49.53)
-		(size 17.018 12.446)
+		(at 142.24 46.99)
+		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -37,7 +167,7 @@
 		)
 		(uuid "1213a66d-8b93-46c4-b414-9452953a635e")
 		(property "Sheetname" "Micro SD"
-			(at 139.446 48.8184 0)
+			(at 142.24 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,12 +176,62 @@
 			)
 		)
 		(property "Sheetfile" "Micro_SD.kicad_sch"
-			(at 139.446 62.5606 0)
+			(at 142.24 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SD-CCLK" bidirectional
+			(at 142.24 49.53 180)
+			(uuid "3fb136db-a824-4bdc-aaf4-b7855236803e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD-CMD" bidirectional
+			(at 142.24 52.07 180)
+			(uuid "90ed4dc3-1c4e-4bc0-93b0-585be72112c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD-D0" bidirectional
+			(at 142.24 54.61 180)
+			(uuid "040e611f-7b26-4cf5-a0f2-fc12bc98bbf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD-D1" bidirectional
+			(at 142.24 57.15 180)
+			(uuid "884369b1-e74d-4eef-92e7-8b480e763c86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD-D2" bidirectional
+			(at 142.24 59.69 180)
+			(uuid "8c58a8d5-d8c7-4af4-ac3f-625cf9fd99e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -63,8 +243,8 @@
 		)
 	)
 	(sheet
-		(at 98.552 47.498)
-		(size 27.94 50.038)
+		(at 98.552 46.99)
+		(size 28.448 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,7 +259,7 @@
 		)
 		(uuid "657822a5-55a5-4f02-b891-b1bece19e172")
 		(property "Sheetname" "TE0724 Connector"
-			(at 98.552 46.7864 0)
+			(at 98.552 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,12 +268,132 @@
 			)
 		)
 		(property "Sheetfile" "TE0724_Connector.kicad_sch"
-			(at 98.552 98.1206 0)
+			(at 98.552 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 127 78.74 0)
+			(uuid "caca6f8a-8b55-424a-8a57-8a236f96bc15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" output
+			(at 127 76.2 0)
+			(uuid "fd93ee70-cb1d-43a9-901e-1f7c03dc4015")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL(2)" input
+			(at 127 93.98 0)
+			(uuid "0910256f-f525-47ec-9275-2a74eeab316c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA(2)" bidirectional
+			(at 127 91.44 0)
+			(uuid "c6c7f3bf-db6e-471b-8d47-0db9ba672fea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-CCLK" bidirectional
+			(at 127 49.53 0)
+			(uuid "a6947542-5360-4b0c-9d86-b03b385aa8d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-CMD" bidirectional
+			(at 127 52.07 0)
+			(uuid "ead47cea-0cb1-4c6b-bc6c-a7adc48e16ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-D0" bidirectional
+			(at 127 54.61 0)
+			(uuid "1f1c353d-b5dc-4c19-8766-f1206aef6af8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-D1" bidirectional
+			(at 127 57.15 0)
+			(uuid "859441c6-13f7-46c3-a829-53ddf8ed56b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-D2" bidirectional
+			(at 127 59.69 0)
+			(uuid "7b8338f8-dcab-49b0-ab1d-f9cfa2a27b69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-D3" bidirectional
+			(at 127 62.23 0)
+			(uuid "61b05e1e-842d-484f-9750-3456992eeabc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 127 68.58 0)
+			(uuid "8d2f3c40-1aa2-4058-9457-42b9d8107b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESESTREQ" input
+			(at 127 71.12 0)
+			(uuid "9331d542-218a-4442-91c7-22510dacf46f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -105,8 +405,8 @@
 		)
 	)
 	(sheet
-		(at 183.642 54.864)
-		(size 13.208 31.75)
+		(at 172.72 65.024)
+		(size 16.51 32.766)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -121,7 +421,7 @@
 		)
 		(uuid "6da06bd5-7839-43dd-9065-41aec0431e8e")
 		(property "Sheetname" "CSKB"
-			(at 183.642 54.1524 0)
+			(at 172.72 64.3124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,12 +430,72 @@
 			)
 		)
 		(property "Sheetfile" "PC104_Connector.kicad_sch"
-			(at 183.642 87.1986 0)
+			(at 172.72 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART_RX" output
+			(at 172.72 78.74 180)
+			(uuid "0e3c8a22-4152-43ab-9586-160c3f59ca1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 172.72 76.2 180)
+			(uuid "6150f318-a347-486b-b0bc-9d49527555d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL_CSKB" output
+			(at 172.72 93.98 180)
+			(uuid "48a3ea2d-46d4-439e-b433-e8daac5ec3ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA_CSKB" bidirectional
+			(at 172.72 91.44 180)
+			(uuid "03173e2c-44e4-4936-92ef-f484fa57ab04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" output
+			(at 172.72 68.58 180)
+			(uuid "8a04586e-d9c0-4dd2-899e-eff93c27c563")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESESTREQ" output
+			(at 172.72 71.12 180)
+			(uuid "0a97b4ea-620b-4791-add9-303d26e9b98c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -147,8 +507,8 @@
 		)
 	)
 	(sheet
-		(at 140.462 85.598)
-		(size 21.082 11.176)
+		(at 135.89 87.63)
+		(size 27.94 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -163,7 +523,7 @@
 		)
 		(uuid "8f9a2a35-dce8-46a6-bed9-0172c40628c2")
 		(property "Sheetname" "I2C Buffer"
-			(at 140.462 84.8864 0)
+			(at 135.89 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,12 +532,52 @@
 			)
 		)
 		(property "Sheetfile" "I2C_Buffer.kicad_sch"
-			(at 140.462 97.3586 0)
+			(at 135.89 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C_SCL(2)" output
+			(at 135.89 93.98 180)
+			(uuid "bed21999-4323-4d75-a2a7-8676145d12f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL_CSKB" input
+			(at 163.83 93.98 0)
+			(uuid "1dd0e639-0f6f-432c-97a0-c7dc118985da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA(2)" bidirectional
+			(at 135.89 91.44 180)
+			(uuid "0f50a42c-f69c-4ef5-b873-941a5ca6010b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA_CSKB" bidirectional
+			(at 163.83 91.44 0)
+			(uuid "e8baa116-6ef3-4fc1-99fe-222aa1145007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
