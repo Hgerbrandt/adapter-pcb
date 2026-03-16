@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.65,
-          "width": 1.65
+          "drill": 2.2,
+          "height": 4.4,
+          "width": 4.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -190,7 +190,7 @@
         0.0,
         0.2,
         0.3,
-        0.5
+        0.47
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -507,10 +507,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Hunter/Desktop/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "adapter-pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -701,6 +701,10 @@
     [
       "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c",
       "Mechanical"
+    ],
+    [
+      "cf109836-ab8e-48e3-a0ed-36c6666f071e",
+      "Level Shifter"
     ]
   ],
   "text_variables": {}
